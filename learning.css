@@ -143,3 +143,9 @@ a:hover{
     background: #fff;
     color: #333;
 }
+
+.column {
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+}
