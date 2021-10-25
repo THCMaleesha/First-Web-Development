@@ -5,6 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="registration.css">
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script type="text/javascript">
+            function showMessage() {
+                alert("Thank You. Your application was successfully submitted!.");
+            }
+        </script>
         <style>
             table{
                 cellpadding: 5;
@@ -60,7 +65,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td><input type="Submit" size="25"><input type="Reset"/></td>
+                    <td><input type="Submit" size="25" onClick="showMessage()"><input type="Reset"/></td>
                 </tr>
             </table>
         </form>
