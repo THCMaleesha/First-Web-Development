@@ -102,8 +102,9 @@ h3{
 
 .pichead{
     font-family: cursive;
-    color: red;
+    color: #009999;
     font-size: 23px;
+    font-weight: bold;
 }
 
 #img1{
