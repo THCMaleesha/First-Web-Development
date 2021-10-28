@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>New Born Academy-Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="registration.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script type="text/javascript">
+            function showMessage() {
+                alert("Thank You. Your application was successfully submitted!.");
+            }
+        </script>
+        <style>
+            table{
+                cellpadding: 5;
+                width: 50%;
+                align: center;
+                cellspacing: 5;
+                margin-left: 170px;
+                font-size: 20px;
+            }
+            td{
+                font-size: 25px;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <ul class="navigation"> 
+            <li> <a href="index.html"> To Home </a></li>
+            <li> <a href="about.html"> About Us </a> </li>
+            <li> <a href="learning.html"> Learning </a> </li>
+        </ul>
+        <br><br>
+            <center><h2>Registration Form</h2></center>
+        <form>
+            <table>
+                <br><br>
+                <tr>
+                    <td>Name</td>
+                    <td><input type=text name=textnames id="textname" size="35"></td>
+                </tr>
+                <tr>
+                    <td>Father Name</td>
+                    <td><input type="text" name="fathername" id="fathername" size="35"></td>
+                </tr>
+                <tr>
+                    <td>Postal Address</td>
+                    <td><input type="text" name="paddress" id="paddress" size="35"></td>
+                </tr>
+                <tr>
+                    <td>Sex</td>
+                    <td><input type="radio" name="sex" value="male" size="10">Male
+                        <input type="radio" name="sex" value="Female" size="10">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="text" name="dob" id="dob" size="35"></td>
+                </tr>
+                <tr>
+                    <td>MobileNo</td>
+                    <td><input type="text" name="mobileno" id="mobileno" size="35"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="Submit" size="25" onClick="showMessage()"><input type="Reset"/></td>
+                </tr>
+            </table>
+        </form>
+            
+        <div class="footer">
+            <p><h4>Little Kingdom Nursery</h4>
+                <i class="fa fa-envelope" style="font-size:17px"></i><a href = "mailto: littlekingdom@gmail.com"> littlekingdom@gmail.com |</a>
+                <i class="fa fa-phone" style="font-size:17px"></i><a href="tel:123-456-7890"> +96705149750</a>
+            </p>
+            <br>
+            <i class='fab fa-github-alt' style='font-size:31px;color:green'></i>
+            <i class='fab fa-github-alt' style='font-size:31px;color:green'></i>
+            <i class='fab fa-github-alt' style='font-size:31px;color:green'></i>
+        </div>
+    </body>
+</html>

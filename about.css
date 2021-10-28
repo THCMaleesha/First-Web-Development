@@ -1,0 +1,146 @@
+body {
+  font-family: Arial;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-image: url("images/background 2.jpg");
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.navigation{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10px;
+    height: 180px;
+}
+
+.navigation li{
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+}
+
+.navigation li a{
+    color: #1b7110;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 18px;
+}
+
+.navigation li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.leftcolumn {
+  float: left;
+  width: 73%;
+  text-align: justify;
+}
+
+.rightcolumn {
+  float: left;
+  width: 26%;
+  padding-left: 12px;
+}
+
+.fakeimg {
+  width: 100%;
+  padding: 5px;
+  align-content: center;
+  padding-right: 5px;
+  margin-left: 25px;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 15px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+h2{
+    font-family: cursive;
+    color: #088541;
+    font-size: 53px;
+}
+
+h3{
+    font-family: cursive;
+    color: black;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.pichead{
+    font-family: cursive;
+    color: #009999;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#img1{
+    margin-top: 45px;
+    border:5px solid #69a961;
+    border-radius: 250px;
+    box-shadow: inset 5px 5px 5px 0 lightgreen, inset -5px -5px 5px lightgreen;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+img{
+    border:3px double #69a961;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 5px 0 lightgreen, inset -5px -5px 5px lightgreen;
+}
+
+ol{
+    font-family: cursive;
+    color: #333333;
+    font-size: 18px;
+}
+
+p{
+    font-family: cursive;
+    font-size: 17px;
+    color: #114f0a;
+}
+
+a{
+    color: #1b7110;
+    text-decoration: none;
+    padding: 5px 5px; 
+}
+
+a:hover{
+    background: #fff;
+    color: #333;
+}
